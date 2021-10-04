@@ -22,7 +22,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "Assignment 1 Portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
