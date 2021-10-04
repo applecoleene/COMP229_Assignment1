@@ -1,9 +1,13 @@
 {
   "name": "comp229-assignment-1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^14.00.0",
+    "npm": "^7.00.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Assignment 1 Portfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applecoleene/COMP229_Assignment1.git"
+  },
+  "author": "Apple Coleene Duquinal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/applecoleene/COMP229_Assignment1/issues"
+  },
+  "homepage": "https://github.com/applecoleene/COMP229_Assignment1#readme"
 }
