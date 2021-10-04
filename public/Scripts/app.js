@@ -15,9 +15,12 @@ Date: October 3, 2021
 
 })();
 
-var nbar = document.querySelector('nav');
-var bannerPicture = document.getElementById("banner");
 
+var nbar = document.querySelector('nav');
+//var bannerPicture = document.getElementById("banner");
+
+//code referenced to WebCode video tutorial
+//show the navbar background when scrolled down
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 100) {
         nbar.classList.add('bg-dark', 'shadow');
@@ -28,6 +31,7 @@ window.addEventListener('scroll', function () {
     }
 });
 
+//value variables
 function showName() {
     var fname = document.getElementById("fnamelInput").value;
     var lname = document.getElementById("lnameInput").value;
@@ -35,6 +39,7 @@ function showName() {
     var email = document.getElementById("emailInput").value;
     var message = document.getElementById("messageInput").value;
 
+    //output the contact informarion
     document.getElementById("outMod").innerHTML = "Name:  " + fname + " " + lname + "<br>" + "Contact Number: " + telPhone + "<br>" + "Email: " + email + "<br>" + "Message: " + message;
 
 }
