@@ -35,6 +35,6 @@ function showName() {
     var email = document.getElementById("emailInput").value;
     var message = document.getElementById("messageInput").value;
 
-    document.getElementById("outMod").innerHTML = "Name:  " + fname + lname + "<br>" + "Contact Number: " + telPhone + "<br>" + "Email: " + email + "<br>" + "Message: " + message;
+    document.getElementById("outMod").innerHTML = "Name:  " + fname + " " + lname + "<br>" + "Contact Number: " + telPhone + "<br>" + "Email: " + email + "<br>" + "Message: " + message;
 
 }
