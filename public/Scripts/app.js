@@ -1,4 +1,10 @@
 // IIFE -- Immediately Invoked Function Expression
+/*
+File name: app.js
+Student’s Name: Apple Coleene Duquinal
+StudentID:  301000645
+Date: October 3, 2021
+*/
 (function () {
 
     function Start() {

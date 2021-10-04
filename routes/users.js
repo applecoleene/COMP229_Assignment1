@@ -1,3 +1,10 @@
+/*
+File name: users.js
+Student’s Name: Apple Coleene Duquinal
+StudentID:  301000645
+Date: October 3, 2021
+*/
+
 var express = require('express');
 var router = express.Router();
 
